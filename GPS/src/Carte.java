@@ -6,14 +6,14 @@ public class Carte extends JPanel {
 
 	private static final long serialVersionUID = 1L;
 
-	// Le réseau contenu par la carte
+	// Lg la carte
 	private Reseau reseau;
 
 	// Détermine si la méthode paintComponent doit dessiner le chemin le plus
 	// court (dessineSolution=true) ou le réseau (dessineSolution=false)
 	private boolean dessineSolution = false;
 
-	// Échelle de la carte. Détermine les dimensions, en pixels, d’un carré sur
+	// Échelle de la cartfuck this shuitdimensions, en pixels, d’un carré sur
 	// la grille
 	private int carreTaille = 50;
 
